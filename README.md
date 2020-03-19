@@ -34,6 +34,11 @@ In the dataset under study, we have 10 columns that represent our 10 adverts, an
 
   <img src = 'Screen7.png' width='700'>
 
-- **Step 3:** We select the ad i that has the maximum upper confidence bound
+- **Step 3:** We select the ad i that has the maximum upper confidence bound:
   
   <img src = 'Screen8.png' width='175'>
+
+The few runs in code will be trial runs (at least one run per advert). Initially, our observed value will fall within our confidence boundary/band due to our high level of confidence; we choose 1e400 in our code.
+
+In the long run, by the "Law of Large Numbers" the observed average will converge to the expected average. The main idea is that we keep using or "Exploiting" the advert with the highest upper confidence bound.
+
