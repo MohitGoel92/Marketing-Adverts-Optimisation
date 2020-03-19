@@ -6,7 +6,7 @@ We currently work for a car company in the analytics department. The marketing t
 
 We will be using "Reinforcement Learning" to complete this marketing business task, with our two approaches being the "Upper Confidence Bound" and "Thompson Sampling" algorithm.
 
-## Reinforcement Learning
+## Reinforcement Learning
 
 Reinforcement learning is a branch of machine learning and is also referred to as "Online Learning" or "Interactive Learning". It is used to solve interacting problems where the data observed up to time T is considered to decide which action to take at time T+1. It is also used for artificial intelligence when training machines to perform tasks such as a walking robot dog. In essence the desired outcomes provide the AI machine with a reward (1), and an undesired outcome with punishment (0). Machines use this approach which enables them to learn through trial and error, a dynamic strategy.
 
