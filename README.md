@@ -22,5 +22,9 @@ Regret is a mathematical concept which is the consequence or amount suffered whe
 
 We wish to combine exploration and exploitation together and get to the optimal solution as soon as we can to maximise the output of our efforts.
 
-In the dataset under study, we have 10 columns that represent our 10 adverts, and 10,000 rows which represent 10,000 rounds. The dataset contains 0's and 1's which represent whether a customer would have selected that advert (1) or not (0), if that advert was shown to that person. Each person is represented by a round (10,000).
+In the dataset under study, we have 10 columns that represent our 10 adverts, and 10,000 rows which represent 10,000 rounds. The dataset contains 0's and 1's which represent whether a customer would have selected that advert (1) or not (0), if that advert was shown to that person. Each person is represented by a round n (1 of 10,000).
 
+**Steps for applying the Upper Confidence Bound algorithm**
+
+- **Step 1:** At each round n, we consider two numbers for each ad i:
+  - 
