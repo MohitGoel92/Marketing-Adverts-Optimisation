@@ -27,7 +27,7 @@ In the dataset under study, we have 10 columns that represent our 10 adverts, an
 **Steps for applying the Upper Confidence Bound algorithm**
 
 - **Step 1:** At each round n, we consider two numbers for each ad i:
-<img src = 'Screen3.png' width='70'>
+<img src = 'Screen3.png' width='400'>
 
 - **Step 2:** From these two numbers we compute:
 
