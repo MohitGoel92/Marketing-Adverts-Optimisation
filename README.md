@@ -36,4 +36,4 @@ In the dataset under study, we have 10 columns that represent our 10 adverts, an
 
 - **Step 3:** We select the ad i that has the maximum upper confidence bound
   
-  <img src = 'Screen8.png' width='200'>
+  <img src = 'Screen8.png' width='175'>
