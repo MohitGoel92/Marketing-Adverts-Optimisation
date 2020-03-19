@@ -32,3 +32,4 @@ In the dataset under study, we have 10 columns that represent our 10 adverts, an
 
 - **Step 2:** From these two numbers we compute:
 
+  <img src = 'Screen4.png' width='700'>
