@@ -12,11 +12,15 @@ Reinforcement learning is a branch of machine learning and is also referred to a
 
 ## Upper Confidence Bound
 
-In our task there are two main factors we must consider, they are "Exploration" and "Exploitation". During exploration, our goal is to figure out which machine is the best. However, exploitation refers to maximising our results from our findings regarding the better performing advert.
+In our task there are two main factors to consider, they are "Exploration" and "Exploitation". During exploration, our goal is to figure out which machine is the best. However, exploitation refers to maximising our results from our findings regarding the better performing advert.
 
 In theory, we may approach this task by releasing each advert the same number of times and at the end of the experiment, the best advert will be the advert that received the most clicks. However a disadvantage of this is regret, a mathematical concept from decision theory.
 
 **Regret**
 
 Regret is a mathematical concept which is the consequence or amount suffered when we do not use the optimal method. Therefore, the difference between our optimal result and sub optimal result is deemed our regret. However, if we do not explore long enough we may except the sub-optimal advert as our optimal advert.
+
+We wish to combine exploration and exploitation together and get to the optimal solution as soon as we can to maximise the output of our efforts.
+
+In the dataset under study, we have 10 columns that represent our 10 adverts, and 10,000 rows which represent 10,000 rounds. The dataset contains 0's and 1's which represent whether a customer would have selected that advert (1) or not (0), if that advert was shown to that person. Each person is represented by a round (10,000).
 
