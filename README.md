@@ -1,6 +1,6 @@
 # Marketing Adverts Optimisation
 
-**Task: Marketing advert success analysis**
+**Task: Which advert should the company use?**
 
 We currently work for a car company in the analytics department. The marketing team has produced 10 great adverts for a new SUV but are unsure which advert to choose as their final advert to release. We wish to investigate which advert customers will respond to the best and optimise our best advert.
 
