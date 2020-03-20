@@ -44,3 +44,8 @@ In the long run, by the "Law of Large Numbers" the observed average will converg
 
 In the python file attached, we will compare the results of the total_reward between the random model and the UCB model. In summary, if we were to randomly assign an advert for the viewer, we observe the total_reward being approximately between 1,200 and 1,300. However, if we use the UCB model we observe the total_reward to be 2,178. Therefore the UCB algortihm has increased the total_reward by approximately 1,000. This means 1,000 more viewers clicked the advert for the SUV, resulting in a higher number of possible sales.
 
+**Note**
+
+The UCB algorithm is deterministic, therefore there is no randomness in the algorithm itself.
+
+## Thompson Sampling
