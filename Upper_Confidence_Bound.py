@@ -11,7 +11,7 @@ import pandas as pd
 dataset = pd.read_csv('Ads_CTR_Optimisation.csv')
 
 # Random Selection
-# After running the random model below numerous times, we see that the total reward is usually between 1200 and 1300
+# After running the random model below numerous times, we see that the total reward is usually between 1200 and 1300.
 
 # Implementing Random Selection
 
@@ -31,7 +31,7 @@ for n in range(0, N):
 
 # Visualising the results
 
-# As expected, we more or less see an even distribution of the ads selected
+# As expected, we more or less see an even distribution of the ads selected.
 
 plt.hist(ads_selected)
 plt.title('Histogram of ads selections')
@@ -39,8 +39,8 @@ plt.xlabel('Ads')
 plt.ylabel('Number of times each ad was selected')
 plt.show()
 
-# We observe that advert 5 has the highest total rewards, threfore we conclude that advert 5 is the best
-# as it received the most clicks
+# We observe that advert 5 has the highest total rewards, therefore we conclude that advert 5 is the best
+# as it received the most clicks.
 
 plt.bar(range(1,11), sums_of_rewards, color = 'green')
 plt.title('Bar chart of rewards per advert')
@@ -58,7 +58,7 @@ plt.show()
 # Implementing the Upper Confidence Bound
 # Using the UCB algorithm, we see that the total reward is 2178 which will be the total reward every time 
 # we run the algorithm as UCB is deterministic. We conclude that due to the UCB algorithm, we have recieved 
-# approximately 1000 more rewards as opposed to the random selection method, as a result of exploiting the 
+# approximately 1000 more rewards as opposed to the random selection method, a direct result of exploiting the 
 # optimal advert.
 
 N = 10000
