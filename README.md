@@ -55,7 +55,9 @@ The UCB algorithm is deterministic, therefore there is no randomness in the algo
 
 **Bayesian Inference**
 
+Ad i will get rewards y from the Bernoulli distribution given below: 
 <img src = 'Screen11.png' width='175'>
+
 <img src = 'Screen12.png' width='175'>
 <img src = 'Screen13.png' width='600'>
 <img src = 'Screen14.png' width='700'>
