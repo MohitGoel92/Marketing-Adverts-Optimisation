@@ -57,8 +57,8 @@ plt.show()
 
 # Implementing the Upper Confidence Bound
 # Using the UCB algorithm, we see that the total reward is 2178 which will be the total reward every time 
-# we run the algorithm as UCB is deterministic. We conclude that due to the UCB algorithm, we have recieved 
-# approximately 1000 more rewards as opposed to the random selection method, a direct result of exploiting the 
+# we run the algorithm as UCB is deterministic. We conclude that due to the UCB algorithm, we have approximately 
+# recieved 1000 more rewards as opposed to the random selection method, a direct result of exploiting the 
 # optimal advert.
 
 N = 10000
