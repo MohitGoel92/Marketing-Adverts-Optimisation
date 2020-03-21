@@ -72,3 +72,8 @@ The beta distribution is given below:
 <img src = 'Screen14.png' width='700'>
 
 At each round n we take a random draw Theta_i(n) from this posterior distribution p(Theta_i|y), for each advert i. At each round n we select the advert i that has the highest Theta_i(n).
+
+**Steps for applying the Thompson Sampling algorithm**
+
+**Step 1:** At each round n, we consider two numbers for each ad i:
+
