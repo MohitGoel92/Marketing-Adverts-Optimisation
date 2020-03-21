@@ -47,9 +47,12 @@ In the python file attached, we will compare the results of the total_reward bet
 
 ## Thompson Sampling
 
-Thompson sampling is a probabilistic algorithm, where the distributions have been created from the values we have obtained from our data under study. The algorithm is not attempting to guess the distribution behind the adverts, but is constructing the distributions of where we think the actual expected value may lie. The optimal advert will be utilised more and over time, the model will converge to the real expected value and a narrow confidence interval. 
+Thompson sampling is a reinforcement learning algorithm where the probabilistic distributions have been created from the values we have obtained from our data under study. The algorithm is not attempting to guess the distribution behind the adverts, but is constructing the distributions of where we think the actual expected value may lie. The optimal advert will be utilised more and over time, the model will converge to the real expected value and a narrow confidence interval.
 
 **Note**
 
 The UCB algorithm is deterministic, therefore there is no randomness in the algorithm itself. However, the UCB requires an update at every round. The Thompson Sampling algorithm is a probabilistic algorithm which accommodates delayed feedback and provides better empirical evidence due to its nature of observation and experience. However, as the distributions represent the perception of the world and where we think the expected returns lie, the algorithm generates random values from these distributions.
 
+**Bayesian Inference**
+
+<img src = 'Screen3.png' width='700'>
