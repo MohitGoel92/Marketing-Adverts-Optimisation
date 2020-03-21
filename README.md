@@ -81,7 +81,7 @@ At each round n we take a random draw Theta_i(n) from this posterior distributio
 
 **Step 2:** For each ad i, we take a random draw from the distribution below:
 
-<img src = 'Screen16.png' width='700'>
+<img src = 'Screen16.png' width='350'>
 
 **Step 3:** We select the ad that has the highest Theta_i(n)
 
