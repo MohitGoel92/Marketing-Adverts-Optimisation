@@ -59,6 +59,13 @@ Ad i will get rewards y from the Bernoulli distribution given below:
 
 <img src = 'Screen11.png' width='175'>
 
+Theta_i is unknown but we set its uncertainty by assuming it has a uniform distribution, which is the prior distribution; this is given below:
+
 <img src = 'Screen12.png' width='175'>
+
+Bayes rule: We approach Theta_i by the posterior distribution given below:
+
 <img src = 'Screen13.png' width='600'>
+
+
 <img src = 'Screen14.png' width='700'>
