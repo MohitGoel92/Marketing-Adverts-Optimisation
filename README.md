@@ -55,4 +55,7 @@ The UCB algorithm is deterministic, therefore there is no randomness in the algo
 
 **Bayesian Inference**
 
-<img src = 'Screen3.png' width='700'>
+<img src = 'Screen11.png' width='350'>
+<img src = 'Screen12.png' width='350'>
+<img src = 'Screen13.png' width='350'>
+<img src = 'Screen14.png' width='350'>
