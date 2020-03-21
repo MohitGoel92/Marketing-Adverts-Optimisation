@@ -42,7 +42,7 @@ The first few runs in the code will be trial runs (at least one run per advert).
 
 In the long run, by the "Law of Large Numbers" the observed average will converge to the expected average. The main idea is that we keep using (exploiting) the advert with the highest upper confidence bound.
 
-In the python file attached, we will compare the results of the total_reward between the random model and the UCB model. In summary, if we were to randomly assign an advert for the viewer, we observe the total_reward being approximately between 1,200 and 1,300. However, if we use the UCB model we observe the total_reward to be 2,178. Therefore the UCB algortihm has increased the total_reward by approximately 1,000. This means 1,000 more viewers clicked the advert for the SUV, resulting in a higher number of possible sales.
+In the python file attached, we will compare the results of the total_reward between the random model and the UCB model. In summary, if we were to randomly assign an advert for the viewer, we observe the total_reward approximately being between 1,200 and 1,300. However, if we use the UCB model we observe the total_reward to be 2,178. Therefore the UCB algortihm has increased the total_reward by approximately 1,000. This means 1,000 more viewers clicked the advert for the SUV, resulting in a higher number of possible sales.
 
 
 ## Thompson Sampling
@@ -77,3 +77,12 @@ At each round n we take a random draw Theta_i(n) from this posterior distributio
 
 **Step 1:** At each round n, we consider two numbers for each ad i:
 
+<img src = 'Screen15.png' width='700'>
+
+**Step 2:** For each ad i, we take a random draw from the distribution below:
+
+<img src = 'Screen16.png' width='700'>
+
+**Step 3:** We select the ad that has the highest Theta_i(n)
+
+In the python file attached, we will compare the results of the total_reward between the random model and the Thompson Sampling model. In summary, if we were to randomly assign an advert for the viewer, we observe the total_reward approximately being between 1,200 and 1,300. However, if we use the Thompson Sampling model we observe the total_reward to usually be around 2,500. Therefore the Thompson Sampling algortihm has approximately doubled the total_reward in comparison to the random selection method. This means double the viewers clicked the advert for the SUV, resulting in a higher number of possible sales.
